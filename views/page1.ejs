@@ -1,0 +1,20 @@
+<%- include('./partials/header') %>
+
+    <h5 class="lead"><%= quiz.title %></h5>
+
+    <div class="container d.flex mt-5">
+        <h2><%= quiz.text %></h2>
+
+        <form action="/quiz/<%= href %>" method="post">
+            <% for (var key in quiz.options[0]) { %>
+                <div>
+                    <input type="radio" name="radio" value ="<%= quiz.options[0][key]['id'] %>">
+                    <%= quiz.options[0][key]['val'] %>
+                </div>
+                <% } %>
+                <button type="submit" class="btn btn-primary mt-3 px-3"><%= text %></button>
+            </form>
+
+    </div>
+
+    <%- include('./partials/footer') %>

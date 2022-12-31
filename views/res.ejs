@@ -1,0 +1,431 @@
+<%- include('./partials/header') %>
+
+<!-- JavaScript -->
+<% if (locals.lang === "JavaScript") { %>
+<section>
+<div class="container-lg mt-5 my-2">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-md-5 text-center text-md-start">
+            <h1>
+                <div class="">
+                   <p class="h1 lead fw-normal fs-3">You Should Learn</p> 
+                </div>
+                <div class="">
+                    <p class="display-5 text-warning"><%= locals.lang %></p>
+                </div>
+            </h1>
+            <p class="lead my-4 fs-5">JavaScript is the most popular programming language in the world. The majority of websites you visit are written in JS.
+            It is a powerful language that allows you to make interactive animations and games, as well as dynamic websites</p>
+        </div>
+        <div class="col-md-5 text-center">
+            <span class="toolT" data-bs-placement="bottom" title="Js">
+                <img class="img-fluid rounded" src="/images/Javascript_.png" alt="JavaScript_Logo">
+            </span>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- Resources Section -->
+    <section id="reviews" style="background:#f8e83a" class="mt-5 py-3">
+        <div class="container-lg pt-2">
+            <div class="text-center">
+                <h2 class="h3 fw-normal text-dark" ><i class="fa-solid fa-book fa-sm"></i> Resources</h2>
+                <p class="lead fs-5 text-dark">Here are some good resources for learning <%= locals.lang %></p>
+            </div>
+
+            <div class="row justify-content-center my-2">
+                <div class="col-lg-8">
+                    <div class="list-group my-3">
+                        <div class="list-group-item my-1">
+                        <a href="https://devroadmap.site/javascript-101/" style="text-decoration:none;color:black"><h5 class="mb-1 fw-normal">JavaScript 101</h5></a>
+                        </div>
+                        <div class="list-group-item my-1">
+                        <a href="https://shorturl.at/hsKOY" style="text-decoration:none;color:black"><h5 class="mb-1 fw-normal">JavaScript Crash Course For Beginners</h5></a>
+                        </div>
+                        <div class="list-group-item my-1">
+                        <a href="https://shorturl.at/k1679" style="text-decoration:none;color:black"><h5 class="mb-1 fw-normal">JavaScript DOM Manipulation</h5></a>
+                        </div>
+                        <div class="list-group-item my-1">
+                        <a href="https://shorturl.at/gtZ29" style="text-decoration:none;color:black"><h5 class="mb-1 fw-normal">JavaScript Nuggets</h5></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </section>
+<% } %>
+
+<!-- TypeScript -->
+<% if (locals.lang==="TypeScript" ) { %>
+    <section>
+        <div class="container-lg mt-5">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-5 text-center text-md-start">
+                    <h1>
+                        <div class="">
+                            <p class="h1 lead fw-normal fs-3">You Should Learn</p>
+                        </div>
+                        <div class="">
+                            <p class="display-5 text-primary">
+                                <%= locals.lang %>
+                            </p>
+                        </div>
+                    </h1>
+                    <p class="lead my-4 fs-5">TypeScript is a superset of JavaScript and it is a statically typed language. It is a type-safe language, which means
+                    that the compiler checks the code for errors and helps developers find them. TypeScript can be used to develop large
+                    applications, but it also has some benefits for smaller projects.</p>
+                </div>
+                <div class="col-md-5 text-center">
+                    <span class="toolT" data-bs-placement="bottom" title="Js">
+                        <img class="img-fluid rounded w-50" src="/images/Typescript_.png" alt="Typescript_Logo">
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="reviews" style="background:#6cb6ff" class="mt-5 py-3">
+        <div class="container-lg pt-2">
+            <div class="text-center">
+                <h2 class="h3 fw-normal text-light"><i class="fa-solid fa-book fa-sm"></i> Resources</h2>
+                <p class="lead fs-5 text-light">Here are some good resources for learning <%= locals.lang %>
+                </p>
+            </div>
+            <div class="row justify-content-center my-2">
+                <div class="col-lg-8">
+                    <div class="list-group my-3">
+                        <div class="list-group-item my-1">
+                            <a href="https://devroadmap.site/typescript-101/" style="text-decoration:none;color:black">
+                                <h5 class="mb-1 fw-normal">TypeScript 101</h5>
+                            </a>
+                        </div>
+                        <div class="list-group-item my-1">
+                            <a href="https://shorturl.at/bfmY7" style="text-decoration:none;color:black">
+                                <h5 class="mb-1 fw-normal">TypeScript Crash Course</h5>
+                            </a>
+                        </div>
+                        <div class="list-group-item my-1">
+                            <a href="https://shorturl.at/cgwDS" style="text-decoration:none;color:black">
+                                <h5 class="mb-1 fw-normal">Build Your First Project in TypeScript</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <% } %>
+
+<!-- Dart -->
+<% if (locals.lang === "Dart") { %>
+    <section>
+        <div class="container-lg mt-5">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-5 text-center text-md-start">
+                    <h1>
+                        <div class="">
+                            <p class="h1 lead fw-normal fs-3">You Should Learn</p>
+                        </div>
+                        <div class="">
+                            <p class="display-5 text-success">
+                                <%= locals.lang %>
+                            </p>
+                        </div>
+                    </h1>
+                    <p class="lead my-4 fs-5">Dart is a general-purpose programming language that can be used to build web applications, command-line tools, or mobile
+                    apps. It has been designed to be easy to learn, yet powerful. In addition, it has a dynamic type system that supports
+                    both static and dynamic typing.</p>
+                </div>
+                <div class="col-md-5 text-center">
+                    <span class="toolT" data-bs-placement="bottom" title="Js">
+                        <img class="img-fluid rounded " src="/images/Dart.png" alt="Dart_Logo">
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="reviews" style="background:#81e1f9" class="mt-5 py-3">
+        <div class="container-lg pt-2">
+            <div class="text-center">
+                <h2 class="h3 fw-normal text-light"><i class="fa-solid fa-book fa-sm"></i> Resources</h2>
+                <p class="lead fs-5 text-light">Here are some good resources for learning <%= locals.lang %>
+                </p>
+            </div>
+            <div class="row justify-content-center my-2">
+                <div class="col-lg-8">
+                    <div class="list-group my-3">
+                        <div class="list-group-item my-1">
+                            <a href="https://shorturl.at/lDOR1" style="text-decoration:none;color:black">
+                                <h5 class="mb-1 fw-normal">Dart Tutorial</h5>
+                            </a>
+                        </div>
+                        <div class="list-group-item my-1">
+                            <a href="https://shorturl.at/fzF58" style="text-decoration:none;color:black">
+                                <h5 class="mb-1 fw-normal">Flutter Crash Course</h5>
+                            </a>
+                        </div>
+                        <div class="list-group-item my-1">
+                            <a href="https://docs.flutter.dev/" style="text-decoration:none;color:black">
+                                <h5 class="mb-1 fw-normal">Flutter Documentation</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <% } %>
+
+    <!-- Kotlin -->
+    <% if (locals.lang === "Kotlin" ) { %>
+        <section>
+            <div class="container-lg mt-5">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-5 text-center text-md-start">
+                        <h1>
+                            <div class="">
+                                <p class="h1 lead fw-normal fs-3">You Should Learn</p>
+                            </div>
+                            <div class="">
+                                <p class="display-5 text-info">
+                                    <%= locals.lang %>
+                                </p>
+                            </div>
+                        </h1>
+                        <p class="lead my-4 fs-5">Kotlin was designed to be a better alternative to Java, with more features and less boilerplate code.It is interoperable with Java, allowing developers to use Kotlin in combination with their existing Java code, libraries and frameworks.</p>
+                    </div>
+                    <div class="col-md-5 text-center">
+                        <span class="toolT" data-bs-placement="bottom" title="Js">
+                            <img class="img-fluid rounded " src="/images/Kotlin_.png
+                            " alt="Kotlin_logo">
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Resources Section -->
+        <section id="reviews" style="background:#ca9dfd" class="mt-5 py-3">
+            <div class="container-lg pt-2">
+                <div class="text-center">
+                    <h2 class="h3 fw-normal text-light"><i class="fa-solid fa-book fa-sm"></i> Resources</h2>
+                    <p class="lead fs-5 text-light">Here are some good resources for learning <%= locals.lang %>
+                    </p>
+                </div>
+                <div class="row justify-content-center my-2">
+                    <div class="col-lg-8">
+                        <div class="list-group my-3">
+                            <div class="list-group-item my-1">
+                                <a href="https://shorturl.at/fsS29" style="text-decoration:none;color:black">
+                                    <h5 class="mb-1 fw-normal">Kotlin in 100 seconds</h5>
+                                </a>
+                            </div>
+                            <div class="list-group-item my-1">
+                                <a href="https://shorturl.at/yNSYZ" style="text-decoration:none;color:black">
+                                    <h5 class="mb-1 fw-normal">Kotlin Crash Course</h5>
+                                </a>
+                            </div>
+                            <div class="list-group-item my-1">
+                                <a href="https://kotlinlang.org/docs/home.html" style="text-decoration:none;color:black">
+                                    <h5 class="mb-1 fw-normal">Kotlin Documentation</h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <% } %>
+
+
+        <!-- Solidity -->
+        <% if (locals.lang === "Solidity" ) { %>
+            <section>
+                <div class="container-lg mt-5">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-md-5 text-center text-md-start">
+                            <h1>
+                                <div class="">
+                                    <p class="h1 lead fw-normal fs-3">You Should Learn</p>
+                                </div>
+                                <div class="">
+                                    <p class="display-5 text-secondary">
+                                        <%= locals.lang %>
+                                    </p>
+                                </div>
+                            </h1>
+                            <p class="lead my-4 fs-5">The Solidity programming language is a contract-oriented language for writing smart contracts on the Ethereum Virtual
+                            Machine. Inspired by C++, Python, and JavaScript, Solidity targets the Ethereum Virtual Machine. In comparison to
+                            JavaScript, Solidity has a more concise, less error-prone, more explicit syntax, and a better type system.</p>
+                        </div>
+                        <div class="col-md-5 text-center">
+                            <span class="toolT" data-bs-placement="bottom" title="Js">
+                                <img class="img-fluid rounded " src="/images/Solidity_.png" alt="Solidity_logo">
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+            <!-- Resources Section -->
+            <section id="reviews" style="background:#a3e0ff" class="mt-5 py-3">
+                <div class="container-lg pt-2">
+                    <div class="text-center">
+                        <h2 class="h3 fw-normal text-light"><i class="fa-solid fa-book fa-sm"></i> Resources</h2>
+                        <p class="lead fs-5 text-light">Here are some good resources for learning <%= locals.lang %>
+                        </p>
+                    </div>
+                    <div class="row justify-content-center my-2">
+                        <div class="col-lg-8">
+                            <div class="list-group my-3">
+                                <div class="list-group-item my-1">
+                                    <a href="https://shorturl.at/cerwZ" style="text-decoration:none;color:black">
+                                        <h5 class="mb-1 fw-normal">Solidity Guide</h5>
+                                    </a>
+                                </div>
+                                <div class="list-group-item my-1">
+                                    <a href="https://shorturl.at/adiqQ" style="text-decoration:none;color:black">
+                                        <h5 class="mb-1 fw-normal">Solidity Crash Course</h5>
+                                    </a>
+                                </div>
+                                <div class="list-group-item my-1">
+                                    <a href="https://shorturl.at/aguGU" style="text-decoration:none;color:black">
+                                        <h5 class="mb-1 fw-normal">First Project Using Solidity</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <% } %>
+
+        <!-- Rust -->
+        <% if (locals.lang === "Rust" ) { %>
+            <section>
+                <div class="container-lg mt-5">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-md-5 text-center text-md-start">
+                            <h1>
+                                <div class="">
+                                    <p class="h1 lead fw-normal fs-3">You Should Learn</p>
+                                </div>
+                                <div class="">
+                                    <p class="display-5 text-danger">
+                                        <%= locals.lang %>
+                                    </p>
+                                </div>
+                            </h1>
+                            <p class="lead my-4 fs-5">Rust is a compiled language that runs on a variety of platforms, including the web. It has excellent support for
+                            concurrent programming, making it perfect for applications that need to scale. And because it compiles to native code, it can be very fast.</p>
+                        </div>
+                        <div class="col-md-5 text-center">
+                            <span class="toolT" data-bs-placement="bottom" title="Js">
+                                <img class="img-fluid rounded w-50" src="/images/Rust_.png" alt="Rust_logo">
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+            <!-- Resources Section -->
+            <section id="reviews" style="background:#ffbb8e" class="mt-5 py-3">
+                <div class="container-lg pt-2">
+                    <div class="text-center">
+                        <h2 class="h3 fw-normal text-light"><i class="fa-solid fa-book fa-sm"></i> Resources</h2>
+                        <p class="lead fs-5 text-light">Here are some good resources for learning <%= locals.lang %>
+                        </p>
+                    </div>
+                    <div class="row justify-content-center my-2">
+                        <div class="col-lg-8">
+                            <div class="list-group my-3">
+                                <div class="list-group-item my-1">
+                                    <a href="https://shorturl.at/agNO2" style="text-decoration:none;color:black">
+                                        <h5 class="mb-1 fw-normal">Rust in 100 Seconds</h5>
+                                    </a>
+                                </div>
+                                <div class="list-group-item my-1">
+                                    <a href="https://shorturl.at/gprHT" style="text-decoration:none;color:black">
+                                        <h5 class="mb-1 fw-normal">Rust Crash Course</h5>
+                                    </a>
+                                </div>
+                                <div class="list-group-item my-1">
+                                    <a href="https://docs.rs/web3/latest/web3/" style="text-decoration:none;color:black">
+                                        <h5 class="mb-1 fw-normal">Web 3 Documentation for Rust</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <% } %>
+
+
+        <!-- Python -->
+        <% if (locals.lang === "Python" ) { %>
+            <section>
+                <div class="container-lg mt-5">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-md-5 text-center text-md-start">
+                            <h1>
+                                <div class="">
+                                    <p class="h1 lead fw-normal fs-3">You Should Learn</p>
+                                </div>
+                                <div class="">
+                                    <p class="display-5 text-primary">
+                                        <%= locals.lang %>
+                                    </p>
+                                </div>
+                            </h1>
+                            <p class="lead my-4 fs-5">Python is a versatile language that you can use for building all kinds of applications, including those related to AI
+                            and ML. In addition, Python is also a great language for working with data.</p>
+                        </div>
+                        <div class="col-md-5 text-center">
+                            <span class="toolT" data-bs-placement="bottom" title="Js">
+                                <img class="img-fluid rounded w-50" src="/images/Python_.png" alt="Python_logo">
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+            <!-- Resources Section -->
+            <section id="reviews" style="background:#6fa2ff" class=" mt-5 py-3">
+                <div class="container-lg pt-2">
+                    <div class="text-center">
+                        <h2 class="h3 fw-normal text-light"><i class="fa-solid fa-book fa-sm"></i> Resources</h2>
+                        <p class="lead fs-5 text-light">Here are some good resources for learning <%= locals.lang %>
+                        </p>
+                    </div>
+                    <div class="row justify-content-center my-2">
+                        <div class="col-lg-8">
+                            <div class="list-group my-3">
+                                <div class="list-group-item my-1">
+                                    <a href="https://docs.python.org/3/" style="text-decoration:none;color:black">
+                                        <h5 class="mb-1 fw-normal">Python Documentation</h5>
+                                    </a>
+                                </div>
+                                <div class="list-group-item my-1">
+                                    <a href="https://shorturl.at/aqJNU" style="text-decoration:none;color:black">
+                                        <h5 class="mb-1 fw-normal">Python Crash Course</h5>
+                                    </a>
+                                </div>
+                                <div class="list-group-item my-1">
+                                    <a href="https://shorturl.at/mzR02" style="text-decoration:none;color:black">
+                                        <h5 class="mb-1 fw-normal">Python Tutorial</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <% } %>
+
+
+<%- include('./partials/footer') %>
